@@ -7,10 +7,10 @@ For non-current players, this website could be a ***start of an interest they ne
  
 ## Design Process
  
-The website will follow the colors of the Axis Softball Logo which is Navy Blue, Yellow and White.
-When designing the website, i tried to keep it simple and minimilistic as i think it looked clean and easy to use which caters to anyone, especially people who are new to the sport. Keeping this in mind, i made sure not to make the team and sport not seem very intimidating as from personal experience, that is often times the reason why some people are hesitant to join as the sport seems like a very complicated and difficult to understand sport.
-By adding the **About Us** section, it allows the browser to be able to see and know the committee members which hopefully helps them more willing to join as it is often times quite scary to join a team and not know anyone in the CCA therefore, by letting them know who the members are and see their faces they are more likely to join the team.
-- As a user myself, i want to be able to go into the website and easyily navigate it without having the confusion of where i am and what certain parts of the website mean. I would also want to be able to see how the team is doing by watching the highlight clips what is shown in the **Highlights** section. Lastly, if i am unsure if there is training on certain dates, i want to be able to rely on this website to be able to give up to date updates on the training schedule.
+The website will follow the colors of the Axis Softball Logo which is _Navy Blue, Yellow and White_.
+When designing the website, I tried to keep it simple and minimilistic as I think it looked clean and easy to use which caters to anyone, especially _people who are new to the sport_. Keeping this in mind, I made sure not to make the team and sport not seem very intimidating as from personal experience, that is often times the reason why some people are hesitant to join as the sport seems like a very complicated and difficult to understand sport.
+By adding the **About Us** section, it allows the browser to be able to see and know the committee members which hopefully _helps them more willing to join_ as it is often times quite scary to join a team and not know anyone in the CCA therefore, by letting them know who the members are and see their faces they are more likely to join the team.
+- As a user myself, I want to be able to go into the website and **easily navigate it** without having the confusion of where I am and what certain parts of the website mean. I would also want to be able to see how the team is doing by watching the highlight clips what is shown in the **Highlights** section. Lastly, if I am unsure if there is training on certain dates, I want to be able to **rely on this website to be able to give up to date updates on the training schedule**.
  
 
 ## Features
@@ -19,20 +19,13 @@ By having this tab, it allows users to read what the team values are, what the s
 ### Trainings and Events
 - When users go to this part of the website, they can see how our trainings are conducted and also read about our NgeeAnn Softball League where we host competitions within the CCA and record our Statistics as the season progresses. 
 - They can also check the CCA schedule to see when the trainings are and to see for any updates on whether training is still going on or if there is cancellation.
-- Lasstly, when they scroll down they are able to see the **Events** section where we display our competition days and 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- Lastly, when they scroll down they are able to see the **Events** section where we display our competition days and events such as our Axis Halloween where everyone dresses up as a halloween character and play a friendly game against each other and the losing team will recieve a punishment.
+### Highlights
+This section is a place for both current and non current players to see good performances by our very own players that were recorded and uploaded into the website. By having this, it allows not experienced players to also learn from the experienced and to help them understand the game faster and easier.
+### Contact Us
+Most websites have this section as its one of the only ways for the browser to contact the company. For this website, i have included the CCA's email address, CCA Code (they can enter the CCA code into Npal to join the CCA and to sign up for trial sessions), Instagram Account name and Facebook Account name. By providing these means of communication, it allow for the user to be able to contact us easily to clarify anything they are unsure of and to participate in any of the events.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-- Another feature idea
 
 ## Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+For this project i have used HTML, CSS, and JavaScript
 
