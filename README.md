@@ -11,20 +11,15 @@ The website will follow the colors of the Axis Softball Logo which is Navy Blue,
 When designing the website, i tried to keep it simple and minimilistic as i think it looked clean and easy to use which caters to anyone, especially people who are new to the sport. Keeping this in mind, i made sure not to make the team and sport not seem very intimidating as from personal experience, that is often times the reason why some people are hesitant to join as the sport seems like a very complicated and difficult to understand sport.
 By adding the **About Us** section, it allows the browser to be able to see and know the committee members which hopefully helps them more willing to join as it is often times quite scary to join a team and not know anyone in the CCA therefore, by letting them know who the members are and see their faces they are more likely to join the team.
 - As a user myself, i want to be able to go into the website and easyily navigate it without having the confusion of where i am and what certain parts of the website mean. I would also want to be able to see how the team is doing by watching the highlight clips what is shown in the **Highlights** section. Lastly, if i am unsure if there is training on certain dates, i want to be able to rely on this website to be able to give up to date updates on the training schedule.
-
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory)
-Include the Adobe XD wireframe as a folder. You can include the XD share url. 
+ 
 
 ## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
+### About Us
+By having this tab, it allows users to read what the team values are, what the sport is about, and also meet the committee members, coach, and teachers in charge so they know who to look for if they have any questions regarding the CCA.
+### Trainings and Events
+- When users go to this part of the website, they can see how our trainings are conducted and also read about our NgeeAnn Softball League where we host competitions within the CCA and record our Statistics as the season progresses. 
+- They can also check the CCA schedule to see when the trainings are and to see for any updates on whether training is still going on or if there is cancellation.
+- Lasstly, when they scroll down they are able to see the **Events** section where we display our competition days and 
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
