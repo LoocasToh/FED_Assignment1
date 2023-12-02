@@ -1,59 +1,92 @@
-<h1>Highlights</h1>
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link href="style.css" rel="stylesheet" type="text/css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <title>NP AXIS</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="countdown.js"></script>
+
+    <title>NP AXIS</title>
+  
+</head>
 <body>
- 
     <header>
-        <div class="logo-border">
-            <h4>Axis Logo</h4>
-        </div>  
-        <h1>Welcome to NP Axis</h1>
+        <logo>
+            <img src="axisWebsiteAssets/Axis logo.jpg" alt="softball banner" class="logo" style="display: inline-block">
+        </logo>
+        <h1 style="font-size: 100px; display: inline-block">Welcome to NP Axis</h1>
     </header>
-    
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="trainingsandevents.html">Trainings and Events</a>
-        <a href="highlights.html">Highlights</a>
-    </nav>
-    <h2>Highlights</h2>
-    <div class = "container highlights">
-        <div class = "col-sm-4 highlighVideo1">
-            <p>video 1 put here</p>
-            <p>Description put here</p>
-        </div>
-        <div class = "col-sm-4 highlighVideo1">
-            <p>video 1 put here</p>
-            <p>Description put here</p>
-        </div>
-        <div class = "col-sm-4 highlighVideo1">
-            <p>video 1 put here</p>
-            <p>Description put here</p>
-        </div>
-        <div class = "col-sm-4 highlighVideo1">
-            <p>video 1 put here</p>
-            <p>Description put here</p>
-        </div>
-        <div class = "col-sm-4 highlighVideo1">
-            <p>video 1 put here</p>
-            <p>Description put here</p>
-        </div>
-        <div class = "col-sm-4 highlighVideo1">
-            <p>video 1 put here</p>
-            <p>Description put here</p>
-        </div>
+
+    <div style="background-color:#ffc77a;">
+        <!-- minimises nav bar into hamburger button -->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="trainingsandevents.html">Trainings and Events</a>
+            <a href="highlights.html" class="active">Highlights</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
     </div>
+
+    <div class="highlights">
+        <br>
+        <h1 class="pageDivider">Highlights!</h1>
+        <div id="carousel-container">
+            <div id="video-carousel">
+              <!-- Add your video items here -->
+              <div class="video-item">
+                <video controls>
+                  <source src="axisWebsiteAssets/CaiShenHit.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <h3>Cai Shen's Hit During St Gabirel Game</h3>
+                <p>During the St gabriel Cup in September, Cai Shen(Y3) made an amazing hit against the St Gabriel Alumni Team, bringing in 1 run for the team!</p>
+
+              </div>
+              <div class="video-item">
+                <video controls>
+                  <source src="axisWebsiteAssets/Claire catch.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <h3>Claire's hustle to catch the ball</h3>
+                <p>During the Old Raffles Association Tournament in October, Claire(Y1) playing 3rd base hustled and ran to catch the ball. She miraculously caught the ball, getting an out for the inning and even injured her finger.</p>
+
+              </div>
+              <div class="video-item">
+                <video controls>
+                  <source src="axisWebsiteAssets/nicholas catch.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <h3>Nicholas showing off his outfielding skills</h3>
+                <p>During the Old Raffles Association Tournament in October, Nicholas(Y2) made an impressive catch from left field, showing his experience and skill in the sport.</p>
+  
+              </div>
+
+              <!-- Add more video items as needed -->
+            </div>
+          
+            <div id="prevBtn">&lt;</div>
+            <div id="nextBtn">&gt;</div>
+          </div>
+    </div>
+    <script src="carousel.js"></script>
+
     <footer>
-        <h3>Follow us on our Socials!</h3>
+        <h3>Follow us on our Social!</h3>
+        <p>Site made by Lucas Toh</p>
+
+        <div class="social">
+            <img src="axisWebsiteAssets/instagram.jpg">
+            <p>Ig Account: @npsoftball</p>
+        </div>
     </footer>
+
 </body>
 </html>
