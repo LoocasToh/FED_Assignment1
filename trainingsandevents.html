@@ -1,89 +1,125 @@
-<h1>Trainings and Events</h1>
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link href="style.css" rel="stylesheet" type="text/css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <title>NP AXIS</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap" rel="stylesheet">
+    <script src="countdown.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="countdown.js"></script>
+
+    <title>NP AXIS</title>
+
+</head>
 <body>
  
     <header>
-        <div class="logo-border">
-            <h4>Axis Logo</h4>
-        </div>  
-        <h1>Welcome to NP Axis</h1>
+        <logo>
+            <img src="axisWebsiteAssets/Axis logo.jpg" alt="softball banner" class="logo" style="display: inline-block">
+        </logo>
+        <h1 style="font-size: 100px; display: inline-block">Welcome to NP Axis</h1>
     </header>
-    
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="trainingsandevents.html">Trainings and Events</a>
-        <a href="highlights.html">Highlights</a>
-    </nav>
 
-    <div class = "container ourTrainingDates">
-        <h2>Our Training Dates</h2>
-        <div class = "row">
-            <div class = "col-sm-6 description">
-            <h4>About our Training</h4>
-            <p>Our training days fall on Mondays and Thursday, where we have normal trainings on Thursdays
-                such as fielding drills, batting practice, and sometimes friendly games. Mondays are mostly
-                reserved for our very own Ngee Ann Softball League (NPSL).
-                NPSL started in 2022 with the intention of creating a more inclusive environment 
-                so that everyone would get playing time and also a time for players to have friendly
-                rivalry between one another. NPSL has also brought the team closer together as 
-                through playing these games every week, everyone gets to know each other better 
-                through softball and hence making it easier to befriend one another.
-                How it works:
-                Players are drafted and traded among the teams before the season starts by the team
-                captains so as to ensure fairness in the teams. For Season 1, the team captains were
-                    Sarah, Daryl, and Nicholas. For the new season, the team captains are Kayla, Kowin,
-                    and Keene.
-                We also have a system where all the hits and outs each player gets is recorded in a 
-                shared excel sheet so that at any time the players can go into the file to check 
-                their team’s standings and own personal standings in batting and pitching. 
-               </p>
-            </div>
-            <div class = "col-sm-6 dates">
-                <h4>List of Training Dates</h4>
-                <p>20 November 2023(Monday): NPSL</p>
-                <p>20 November 2023(Monday): NPSL</p>
-                <p>20 November 2023(Monday): NPSL</p>
-                <p>20 November 2023(Monday): NPSL</p>
-                <p>20 November 2023(Monday): NPSL</p>
-                <p>20 November 2023(Monday): NPSL</p>
-                <p>20 November 2023(Monday): NPSL</p>
-                <p>20 November 2023(Monday): NPSL</p>
-                <p>20 November 2023(Monday): NPSL</p>
-                <p>20 November 2023(Monday): NPSL</p>
-                <p>20 November 2023(Monday): NPSL</p>
-                <p>20 November 2023(Monday): NPSL</p>
-                <p>20 November 2023(Monday): NPSL</p>
-                <p>20 November 2023(Monday): NPSL</p>
-            </div>
+    <div style="background-color:#ffc77a;">
+                <!-- minimises nav bar into hamburger button -->
+                <div class="topnav" id="myTopnav">
+                    <a href="index.html">Home</a>
+                    <a href="trainingsandevents.html" class="active">Trainings and Events</a>
+                    <a href="highlights.html">Highlights</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                      <i class="fa fa-bars"></i>
+                    </a>
+                  </div>
+    </div>
+
+    <div class="countdown">
+        <br>
+        <div class="countdownContainer container">
+           <h1 class="pageDivider">Next trials held in: </h1>
+           <h1 class="pageDivider" id="demo"></h1>
         </div>
     </div>
-    <div class = "events">
-        <h2>Events</h2>
-        <p>NPSL: Every Monday</p>
-        <p>UWC Dover Rudy Beck Softball Invitational Tournament: 8-10 March</p>
-        <p>CCA Fiesta:20,21 April</p>
-        <p>Bonding Day: 25 May</p>
-        <p>Kirby Cup: 15,16 July</p>
-        <p>St Gabriel Cup: 2,3,9,10 September</p>
-        <p>SMU Invitationals: 16 September</p>
-        <p>Old Raffles Association(ORA): 7,8,21,22 October</p>
-        <p>Axis Halloween: 31 October</p>
-        <p>Wolvens Tournament: 5 November</p>
-
+    
+    <div class="ourTrainingDates">
+        <img src="axisWebsiteAssets/nicholas batting.jpg" alt="softball banner" class = "banner">
+        <h1 class="pageDivider">Our Training Dates</h1>
+        
+            <div class = "row">
+                <div class = "trainingColumn">
+                <h2>About our Training</h2>
+                <p>Our training days fall on Mondays and Thursday, where we have normal trainings on Thursdays
+                    such as fielding drills, batting practice, and sometimes friendly games. Mondays are mostly
+                    reserved for our very own Ngee Ann Softball League (NPSL).
+                </p>
+                <p>NPSL started in 2022 with the intention of creating a more inclusive environment 
+                    so that everyone would get playing time and also a time for players to have friendly
+                    rivalry between one another. NPSL has also brought the team closer together as 
+                    through playing these games every week, everyone gets to know each other better 
+                    through softball and hence making it easier to befriend one another.
+                </p>
+                <p>How it works:
+                    Players are drafted and traded among the teams before the season starts by the team
+                    captains so as to ensure fairness in the teams. For Season 1, the team captains were
+                        Sarah, Daryl, and Nicholas. For the new season, the team captains are Kayla, Kowin,
+                        and Keene.
+                    We also have a system where all the hits and outs each player gets is recorded in a 
+                    shared excel sheet so that at any time the players can go into the file to check 
+                    their team’s standings and own personal standings in batting and pitching. 
+                   </p>
+                </div>
+                <div class = "trainingColumn">
+                    <h2>List of Training Dates</h2>
+                    <p>4 December 2023(Monday): NPSL</p>
+                    <p>7 December 2023(Thursday): Training</p>
+                    <p>11 December 2023(Monday): NPSL</p>
+                    <p>14 December 2023(Thursday): Training</p>
+                    <p>18 December 2023(Monday): NPSL</p>
+                    <p>21 December 2023(Thursday): Training</p>
+                    <p>25 December 2023(Monday): NPSL</p>
+                    <p>28 December 2023(Thursday): Training</p>
+                    <p>1 January 2024(Monday): NPSL</p>
+                    <p>4 January 2024(Thursday): Training</p>
+                    <p>8 January 2024(Monday): NPSL</p>
+                    <p>11 January 2024(Thursday): Training</p>
+                    <p>15 January 2024(Monday): NPSL</p>
+                    <p>18 January 2024(Thursday): Training</p>
+                    <p>Stay tuned for more!</p>
+                </div>
+            </div>
+        
     </div>
+
+    <div class = "events">
+        <img src="axisWebsiteAssets/StGab.JPG" alt="softball banner" class = "banner">
+        <h1 class="pageDivider">Events</h1>
+        <div class="container">
+            <p>NPSL: Every Monday</p>
+            <p>UWC Dover Rudy Beck Softball Invitational Tournament: 8-10 March</p>
+            <p>CCA Fiesta:20,21 April</p>
+            <p>Bonding Day: 25 May</p>
+            <p>Kirby Cup: 15,16 July</p>
+            <p>St Gabriel Cup: 2,3,9,10 September</p>
+            <p>SMU Invitationals: 16 September</p>
+            <p>Old Raffles Association(ORA): 7,8,21,22 October</p>
+            <p>Axis Halloween: 31 October</p>
+            <p>Wolvens Tournament: 5 November</p>
+        </div>
+    </div>
+    
     <footer>
-        <h3>Follow us on our Socials!</h3>
+        <h3>Follow us on our Social!</h3>
+        <p>Site made by Lucas Toh</p>
+
+        <div class="social">
+            <img src="axisWebsiteAssets/instagram.jpg">
+            <p>Ig Account: @npsoftball</p>
+        </div>
     </footer>
+
 </body>
 </html>
