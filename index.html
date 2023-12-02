@@ -3,31 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <link href="style.css" rel="stylesheet" type="text/css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="countdown.js"></script>
+
     <title>NP AXIS</title>
 
 </head>
 <body>
- 
+
     <header>
-        <div class="logo-border">
-            <h4>Axis Logo</h4>
-        </div>  
-        <h1>Welcome to NP Axis</h1>
+        <logo>
+            <img src="axisWebsiteAssets/Axis logo.jpg" alt="softball banner" class="logo" style="display: inline-block">
+        </logo>
+        <h1 style="font-size: 100px; display: inline-block">Welcome to NP Axis</h1>
     </header>
-    
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="trainingsandevents.html">Trainings and Events</a>
-        <a href="highlights.html">Highlights</a>
-    </nav>
-    <div class = "aboutUs">
-        <h2>About Us</h2>
-        <p>Softball is a sport played by 2 teams of 10 players each who try to score more runs
+
+    <div style="background-color:#ffc77a;">
+        <!-- minimises nav bar into hamburger button -->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="trainingsandevents.html">Trainings and Events</a>
+            <a href="highlights.html">Highlights</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+    </div>    
+    <!-- About us section of the page -->
+    <div class="aboutUs">
+        <!-- insert picture -->
+        <img src="axisWebsiteAssets/ORA.jpg" alt="softball banner">
+        <br/>
+        <h1 class="pageDivider">About Us</h1>
+        
+        <p> Softball is a sport played by 2 teams of 10 players each who try to score more runs
             than their opponent by rounding bases and crossing home plates as many times as possible.
             With a strong emphasis on extensive teamwork, cooperation and communication between 
             members, softball is ideal for those keen on trying out a new and challenging
@@ -36,13 +51,76 @@
             us!
         </p>
     </div>
+    <img src="axisWebsiteAssets/Committee.JPG" alt="softball banner" class="banner">
 
-    <div class = "commitee">
-        <h2>Meet the Commitee</h2>
+    <h1 class="pageDivider">Meet the Commitee!</h1>
+    <div class="commitee">
+        <div class="members row">
+            <div class="person column">
+                <img src="axisWebsiteAssets/rafi.jpg">
+                <h4>President</h4>
+                <p>Rafi</p>
+            </div>
+
+            <div class="person column">
+                <img src="axisWebsiteAssets/Alysha.jpg">
+                <h4>Vice-President</h4>
+                <p>Alysha</p>
+            </div>
+
+            <div class="person column">
+                <img src="axisWebsiteAssets/kowin.jpg">
+                <h4>Training Head</h4>
+                <p>Kowin</p>
+            </div>
+
+            <div class="person column">
+                <img src="axisWebsiteAssets/chitou.JPG">
+                <h4>Male Captain</h4>
+                <p>Chitou</p>
+            </div>
+
+            <div class="person column">
+                <img src="axisWebsiteAssets/kayla.JPG">
+                <h4>Female Captain</h4>
+                <p>Kayla</p>
+            </div>
+
+            <div class="person column">
+                <img src="axisWebsiteAssets/nicholas.jpg">
+                <h4>Male Vice-Captain</h4>
+                <p>Nicholas</p>
+            </div>
+
+            <div class="person column">
+                <img src="axisWebsiteAssets/Sarah.jpg">
+                <h4>Female Vice-Captain</h4>
+                <p>Sarah</p>
+            </div>
+
+            <div class="person column">
+                <img src="axisWebsiteAssets/Daryl.jpg">
+                <h4>Logistics</h4>
+                <p>Daryl</p>
+            </div>
+
+            <div class="person column">
+                <img src="axisWebsiteAssets/keene.jpg">
+                <h4>Secretary</h4>
+                <p>Keene</p>
+            </div>
+
+        </div>
     </div>
+    <br>
 
     <footer>
-        <h3>Follow us on our Socials!</h3>
+        <h3>Follow us on our Social!</h3>
+        <p>Site made by Lucas Toh</p>
+        <div class="social">
+            <img src="axisWebsiteAssets/instagram.jpg">
+            <p>Ig Account: @npsoftball</p>
+        </div>
     </footer>
 
 </body>
